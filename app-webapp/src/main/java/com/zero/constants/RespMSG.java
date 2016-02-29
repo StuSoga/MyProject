@@ -9,4 +9,7 @@ public class RespMSG {
 	 */
 	public static final String SUCCESS="请求成功";
 	public static final String ERROR="请求失败";
+
+	public static final String LOGIN_SUCCESS="登录成功";
+	public static final String LOGIN_Failure="登录失败";
 }
