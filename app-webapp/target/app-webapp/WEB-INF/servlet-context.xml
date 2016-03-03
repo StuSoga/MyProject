@@ -29,8 +29,6 @@
 
     <mvc:interceptors>
         <bean class="org.springframework.web.servlet.i18n.LocaleChangeInterceptor" />
-        <bean class="com.zero.app.web.interceptor.AccessInterceptor"/>
-        <bean class="com.zero.app.web.interceptor.CommonInterceptor"/>
     </mvc:interceptors>
 
     <bean id="freemarkerConfig" class="org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer">
